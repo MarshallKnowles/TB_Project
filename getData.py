@@ -250,6 +250,12 @@ def dataset_info():
 
     return INFO, LICENSES, CATEGORIES
 
+
+#Here's what getData Does:
+#input: filepath to target xml file
+#output: 2xn array where n is the number of boxes
+#1st entry is the dimensions with structure [xmin, ymin, xmax, ymax]
+#2nd entry is the classification of the box 1 = ActiveTB, 2 = ObseletePulmonaryTB 3 = PulmonaryTB
 def getData (XML_filepath):
   
   return load_annotation(XML_filepath)
