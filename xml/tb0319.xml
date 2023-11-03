@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0319</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>1751</width>
+		<height>2022</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1004</xmin>
+			<ymin>331</ymin>
+			<xmax>1307</xmax>
+			<ymax>695</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>349</ymin>
+			<xmax>820</xmax>
+			<ymax>839</ymax>
+		</bndbox>
+	</object>
+</annotation>

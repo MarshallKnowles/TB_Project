@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0450</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2802</width>
+		<height>2735</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>461</xmin>
+			<ymin>526</ymin>
+			<xmax>1283</xmax>
+			<ymax>1156</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1495</xmin>
+			<ymin>473</ymin>
+			<xmax>2032</xmax>
+			<ymax>964</ymax>
+		</bndbox>
+	</object>
+</annotation>

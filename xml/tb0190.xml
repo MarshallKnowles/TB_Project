@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0190</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>1765</width>
+		<height>2022</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>320</xmin>
+			<ymin>255</ymin>
+			<xmax>843</xmax>
+			<ymax>1155</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1304</xmin>
+			<ymin>416</ymin>
+			<xmax>1641</xmax>
+			<ymax>876</ymax>
+		</bndbox>
+	</object>
+</annotation>

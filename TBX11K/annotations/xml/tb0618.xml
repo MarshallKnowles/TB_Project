@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0618</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2372</width>
+		<height>2880</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1446</xmin>
+			<ymin>554</ymin>
+			<xmax>1903</xmax>
+			<ymax>1119</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>526</xmin>
+			<ymin>449</ymin>
+			<xmax>1018</xmax>
+			<ymax>968</ymax>
+		</bndbox>
+	</object>
+</annotation>

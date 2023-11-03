@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0839</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2802</width>
+		<height>2735</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2050</xmin>
+			<ymin>991</ymin>
+			<xmax>2442</xmax>
+			<ymax>1431</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>686</xmin>
+			<ymin>780</ymin>
+			<xmax>1212</xmax>
+			<ymax>2061</ymax>
+		</bndbox>
+	</object>
+</annotation>

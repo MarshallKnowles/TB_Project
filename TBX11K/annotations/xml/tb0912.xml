@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0912</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>1856</width>
+		<height>2022</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>310</xmin>
+			<ymin>241</ymin>
+			<xmax>789</xmax>
+			<ymax>736</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1158</xmin>
+			<ymin>419</ymin>
+			<xmax>1597</xmax>
+			<ymax>1259</ymax>
+		</bndbox>
+	</object>
+</annotation>

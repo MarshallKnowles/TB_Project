@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0586</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2987</width>
+		<height>2957</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1766</xmin>
+			<ymin>419</ymin>
+			<xmax>2375</xmax>
+			<ymax>1165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2270</xmin>
+			<ymin>1852</ymin>
+			<xmax>2538</xmax>
+			<ymax>2152</ymax>
+		</bndbox>
+	</object>
+</annotation>

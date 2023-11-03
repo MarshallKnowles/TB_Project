@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0639</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>1754</width>
+		<height>2022</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>245</xmin>
+			<ymin>489</ymin>
+			<xmax>724</xmax>
+			<ymax>928</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1012</xmin>
+			<ymin>432</ymin>
+			<xmax>1548</xmax>
+			<ymax>1128</ymax>
+		</bndbox>
+	</object>
+</annotation>

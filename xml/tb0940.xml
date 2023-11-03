@@ -1,0 +1,20 @@
+<annotation>
+	<filename>tb0940</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2840</width>
+		<height>2761</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>683</xmin>
+			<ymin>489</ymin>
+			<xmax>1232</xmax>
+			<ymax>1004</ymax>
+		</bndbox>
+	</object>
+</annotation>

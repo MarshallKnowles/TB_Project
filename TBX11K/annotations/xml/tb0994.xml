@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0994</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2634</width>
+		<height>2870</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>602</xmin>
+			<ymin>428</ymin>
+			<xmax>1140</xmax>
+			<ymax>844</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1549</xmin>
+			<ymin>400</ymin>
+			<xmax>2211</xmax>
+			<ymax>955</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0246</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2542</width>
+		<height>2790</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1567</xmin>
+			<ymin>608</ymin>
+			<xmax>2149</xmax>
+			<ymax>1407</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>596</xmin>
+			<ymin>591</ymin>
+			<xmax>1144</xmax>
+			<ymax>1092</ymax>
+		</bndbox>
+	</object>
+</annotation>

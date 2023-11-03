@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb1036</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>1994</width>
+		<height>2430</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>274</xmin>
+			<ymin>193</ymin>
+			<xmax>925</xmax>
+			<ymax>966</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1110</xmin>
+			<ymin>200</ymin>
+			<xmax>1622</xmax>
+			<ymax>684</ymax>
+		</bndbox>
+	</object>
+</annotation>

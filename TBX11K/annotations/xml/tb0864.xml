@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0864</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2013</width>
+		<height>2009</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>490</xmin>
+			<ymin>323</ymin>
+			<xmax>933</xmax>
+			<ymax>733</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1213</xmin>
+			<ymin>592</ymin>
+			<xmax>1593</xmax>
+			<ymax>984</ymax>
+		</bndbox>
+	</object>
+</annotation>

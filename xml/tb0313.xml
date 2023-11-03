@@ -1,0 +1,20 @@
+<annotation>
+	<filename>tb0313</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2340</width>
+		<height>2995</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>290</xmin>
+			<ymin>271</ymin>
+			<xmax>1023</xmax>
+			<ymax>1845</ymax>
+		</bndbox>
+	</object>
+</annotation>

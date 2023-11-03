@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0151</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>3001</width>
+		<height>3001</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>970</xmin>
+			<ymin>447</ymin>
+			<xmax>1321</xmax>
+			<ymax>1099</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1566</xmin>
+			<ymin>1174</ymin>
+			<xmax>2147</xmax>
+			<ymax>2239</ymax>
+		</bndbox>
+	</object>
+</annotation>

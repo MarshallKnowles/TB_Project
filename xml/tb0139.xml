@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0139</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2802</width>
+		<height>2735</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>612</xmin>
+			<ymin>534</ymin>
+			<xmax>1185</xmax>
+			<ymax>1212</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1902</xmin>
+			<ymin>1017</ymin>
+			<xmax>2479</xmax>
+			<ymax>1675</ymax>
+		</bndbox>
+	</object>
+</annotation>

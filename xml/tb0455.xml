@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0455</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2017</width>
+		<height>2014</height>
+	</size>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>603</xmin>
+			<ymin>206</ymin>
+			<xmax>892</xmax>
+			<ymax>669</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ObsoletePulmonaryTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>354</xmin>
+			<ymin>597</ymin>
+			<xmax>683</xmax>
+			<ymax>864</ymax>
+		</bndbox>
+	</object>
+</annotation>

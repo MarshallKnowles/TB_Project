@@ -1,0 +1,20 @@
+<annotation>
+	<filename>tb1174</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2013</width>
+		<height>2013</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1127</xmin>
+			<ymin>214</ymin>
+			<xmax>1590</xmax>
+			<ymax>839</ymax>
+		</bndbox>
+	</object>
+</annotation>

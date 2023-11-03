@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0882</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>1799</width>
+		<height>2022</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1273</xmin>
+			<ymin>838</ymin>
+			<xmax>1461</xmax>
+			<ymax>998</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1461</xmin>
+			<ymin>1662</ymin>
+			<xmax>1622</xmax>
+			<ymax>1818</ymax>
+		</bndbox>
+	</object>
+</annotation>

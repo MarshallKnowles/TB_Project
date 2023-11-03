@@ -1,0 +1,32 @@
+<annotation>
+	<filename>tb0754</filename>
+	<segmented>0</segmented>
+	<size>
+		<width>2840</width>
+		<height>2823</height>
+	</size>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1554</xmin>
+			<ymin>311</ymin>
+			<xmax>2191</xmax>
+			<ymax>1186</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ActiveTuberculosis</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>842</xmin>
+			<ymin>332</ymin>
+			<xmax>1459</xmax>
+			<ymax>1164</ymax>
+		</bndbox>
+	</object>
+</annotation>
