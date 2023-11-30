@@ -1,0 +1,11 @@
+__pycache__
+.vscode
+
+data/
+data2/
+data3/
+
+TBX11K/
+xml/
+
+yolov8m.pt
