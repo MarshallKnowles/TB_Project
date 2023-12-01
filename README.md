@@ -9,7 +9,7 @@ Dataset:
 https://www.kaggle.com/datasets/usmanshams/tbx-11
 
 Team Members:
-Marshall Knowles
-Ian
-Shreya
-Arthur
+Marshall Knowles,
+Ian Abcarius,
+Shreya Jain,
+Arthur Xu
