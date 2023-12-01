@@ -23,12 +23,12 @@ def create_annotation_v3(annotation_id, image_id, region, category_mapping):
     category_id = category_mapping.get(region_category, 1) 
 
     return {
-        "id": int(annotation_id),  
-        "image_id": int(image_id),  
+        "id": float(annotation_id),  
+        "image_id": float(image_id),  
         "category_id": int(category_id), 
-        "bbox": [int(b) for b in bbox],  
+        "bbox": [float(b) for b in bbox],  
         "segmentation": [list(np.ravel(points))], 
-        "area": int(area),  
+        "area": float(area),  
         "iscrowd": 0
     }
 
@@ -55,10 +55,10 @@ def create_annotation_v3(annotation_id, image_id, region, category_mapping):
     }
 
 
-with open('TB_Project/TBX11K/annotations/json/Annotations_AllinOne_json.json', 'r') as file:
-    annotations_allinone = json.load(file)
+with open('/Users/shreya/Uoft/Fall 2023/APS360/TB_Project/TBX11K/annotations/json/Annotations_AllinOne_json.json', 'r') as file_annotations:
+    annotations_allinone = json.load(file_annotations)
 
-with open('TB_Project/TBX11K/annotations/json/TBX11K_train.json', 'r') as file:
+with open('/Users/shreya/Uoft/Fall 2023/APS360/TB_Project/TBX11K/annotations/json/TBX11K_train.json', 'r') as file:
     tbx11k_format = json.load(file)
 
 category_mapping = {category["name"]: category["id"] for category in tbx11k_format["categories"]}
@@ -71,10 +71,14 @@ coco_format = {
 }
 
 # Process each entry in the annotations data
+original_image_width = 2048
+original_image_height = 1992
+x_scale = 512 / original_image_width
+y_scale = 512 / original_image_height
 annotation_id = 1  
+
 for filename, image_data in annotations_allinone.items():
     image_id = annotation_id  
-
     coco_format["images"].append({
         "id": image_id,
         "file_name": filename,
@@ -85,8 +89,9 @@ for filename, image_data in annotations_allinone.items():
     # Add annotations for this image
     for region in image_data["regions"]:
         annotation = create_annotation_v3(annotation_id, image_id, region, category_mapping)
-        if annotation:  
-            #print("hiiiii")
+        if annotation:
+            annotation["segmentation"][0][::2] = [i * x_scale for i in annotation["segmentation"][0][::2]]
+            annotation["segmentation"][0][1::2] = [i * y_scale for i in annotation["segmentation"][0][1::2]]
             coco_format["annotations"].append(annotation)
             annotation_id += 1
 
@@ -107,7 +112,7 @@ class NumpyEncoder(json.JSONEncoder):
             return obj.tolist()
         return json.JSONEncoder.default(self, obj)
     
-with open('TB_Project/TBX11K/annotations/json/converting_poly_to_MSCOCO.json', 'w') as file:
+with open('/Users/shreya/Uoft/Fall 2023/APS360/TB_Project/TBX11K/annotations/json/converting_poly_to_MSCOCO.json', 'w') as file:
     json.dump(coco_format, file, cls=NumpyEncoder)
 
 
