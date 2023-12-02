@@ -32,33 +32,10 @@ def create_annotation_v3(annotation_id, image_id, region, category_mapping):
         "iscrowd": 0
     }
 
-def create_annotation_v3(annotation_id, image_id, region, category_mapping):
-    shape_attributes = region.get("shape_attributes", {})
-    if "all_points_x" not in shape_attributes or "all_points_y" not in shape_attributes:
-        return None  
-
-    points = list(zip(shape_attributes["all_points_x"], shape_attributes["all_points_y"]))
-    bbox = get_bbox_from_polygon(points)
-    area = bbox[2] * bbox[3]  # Calculate area (width * height)
-
-    region_category = next(iter(region["region_attributes"]), "default_category")
-    category_id = category_mapping.get(region_category, 1)
-
-    return {
-        "id": annotation_id,
-        "image_id": image_id,
-        "category_id": category_id,
-        "bbox": bbox,
-        "segmentation": [list(np.ravel(points))],  # Flatten the list of tuples
-        "area": area,
-        "iscrowd": 0
-    }
-
-
-with open('/Users/shreya/Uoft/Fall 2023/APS360/TB_Project/TBX11K/annotations/json/Annotations_AllinOne_json.json', 'r') as file_annotations:
+with open('TBX11K/annotations/json/Annotations_AllinOne_json.json', 'r') as file_annotations:
     annotations_allinone = json.load(file_annotations)
 
-with open('/Users/shreya/Uoft/Fall 2023/APS360/TB_Project/TBX11K/annotations/json/TBX11K_train.json', 'r') as file:
+with open('TBX11K/annotations/json/TBX11K_train.json', 'r') as file:
     tbx11k_format = json.load(file)
 
 category_mapping = {category["name"]: category["id"] for category in tbx11k_format["categories"]}
@@ -112,7 +89,7 @@ class NumpyEncoder(json.JSONEncoder):
             return obj.tolist()
         return json.JSONEncoder.default(self, obj)
     
-with open('/Users/shreya/Uoft/Fall 2023/APS360/TB_Project/TBX11K/annotations/json/converting_poly_to_MSCOCO.json', 'w') as file:
+with open('TBX11K/annotations/json/converting_poly_to_MSCOCO.json', 'w') as file:
     json.dump(coco_format, file, cls=NumpyEncoder)
 
 

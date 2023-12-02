@@ -21,4 +21,4 @@ def apply_gaussian_blur(image_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-apply_gaussian_blur('n11.png')
+apply_gaussian_blur('TBX11K/imgs/extra/da+db/train/n11.png')
